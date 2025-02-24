@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import Aurora from './AuroraApp.jsx'
 import Hyperspeed from './HyperspeedApp.jsx'
 import CircularGallery from './Gallery.jsx'
+import SpotlightCard from './CardApp.jsx'
 
 createRoot(document.getElementById('Aurora1')).render(
   <StrictMode>
@@ -25,6 +26,12 @@ createRoot(document.getElementById('Hyperspeed')).render(
 createRoot(document.getElementById('Gallery')).render(
   <StrictMode>
     <CircularGallery />
+  </StrictMode>,
+);
+
+createRoot(document.getElementById('Card')).render(
+  <StrictMode>
+    <SpotlightCard />
   </StrictMode>,
 );
 

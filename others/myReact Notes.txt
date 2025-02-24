@@ -22,3 +22,6 @@ import './index.css'
 
 import SplashCursor from './SplashCursor';
 
+npm run build
+npm run deploy
+

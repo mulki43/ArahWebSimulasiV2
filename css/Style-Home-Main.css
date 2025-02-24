@@ -781,7 +781,7 @@
 
     .tahap-tahap-B {
         position:relative;
-        margin-top: -1.5vw;
+        margin-top: -10vw;
         margin-bottom: 3.72vw;
         margin-left: 1VW;
         width: 100%;
@@ -874,9 +874,8 @@ body * {
 body{
     /*background: linear-gradient(to right, #bbbbbb, #ffffff, #35a7ff48);*/
     background-color: #000000;
-    background-blend-mode: overlay;
+    overflow-x: hidden;
 }
-
 
 .nav-transparant {
     transition: backdrop-filter 0.9s ease-in-out;
@@ -956,12 +955,24 @@ body{
 
 
 .client-background {
-    /*background: linear-gradient(to right ,#043f99, hwb(216 5% 5%));*/
     background-color: #000000;
 }
 .client-text {
     color: rgb(255, 255, 255);  font-weight: 700; line-height: 80%;
 }
+
+
+.card-n {
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
 
 .service-1 {
     transition: transform 0.3s ease-in-out;
@@ -1007,6 +1018,10 @@ footer {
 .isi-footer {
     padding: 0px 40px 0px 40px;
 }
+.logo-bawah {
+    width: 7vw; 
+    margin-top: 2.5vw;
+}
 
 .Aurora1 {
     mix-blend-mode: screen;
@@ -1022,5 +1037,3 @@ footer {
 .Gallery {
     height: 50vh;
 }
-
-
