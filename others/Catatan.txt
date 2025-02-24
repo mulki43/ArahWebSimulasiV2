@@ -1,0 +1,12 @@
+Created by: Mulki
+Project Website Arah Creative.
++62 882 4229 9791
+
+Catatan Pengerjaan:
+1. Ubah format ukuran px ke vw
+2. Ubah fomat ukuran huruf ke rem based root font size
+3. Solid helper
+4. Convert website
+5. Awalnya css dan html gabung
+6. Ada tambahan ukuran screen
+7. Hubungkan vs code dengan github

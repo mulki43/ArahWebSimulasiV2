@@ -1,0 +1,24 @@
+npm create vite@latest my-app --template react
+npm create vite@latest . --template react
+cd my-app
+npm 
+
+npm install @react-spring/web
+npm install @react-spring/web --legacy-peer-deps
+
+npm start
+npm run dev
+
+const App = () => {
+}
+const App = () => {
+  return (
+    di sini paste
+  );
+};
+export default App;
+
+import './index.css'
+
+import SplashCursor from './SplashCursor';
+

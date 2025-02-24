@@ -1,0 +1,44 @@
+@media (max-width: 399px) {
+    
+}
+
+@media (max-width: 575px) {
+    .keterangan {
+        color: rgb(153, 153, 153);
+        margin-top: 50vw;
+        margin-bottom: 36vw;
+    }
+}
+
+@media (min-width: 400px) {
+    
+}
+
+@media (min-width: 576px) {
+    .keterangan {
+        color: rgb(153, 153, 153);
+        margin-top: 40vw;
+        margin-bottom: 26vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .keterangan {
+        color: rgb(153, 153, 153);
+        margin-top: 22vw;
+        margin-bottom: 16vw;
+    }
+}
+
+@media (min-width: 992px) {
+    
+}
+
+@media (min-width: 1200px) {
+    .keterangan {
+        color: rgb(153, 153, 153);
+        margin-top: 22vw;
+        margin-bottom: 16vw;
+    }
+}
+

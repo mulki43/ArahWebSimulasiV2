@@ -1,0 +1,136 @@
+@media (max-width: 399px) {
+    .halaman-utama {
+        margin-top: 15vw;
+        width: 80vw;
+    }
+
+    .menu-harga {
+        margin-top: 7vw;
+        font-size: larger;
+        width: 80vw;
+        text-align: center;
+        margin-left: -3vw;
+    }
+}
+
+@media (max-width: 575px) {
+    
+}
+
+@media (min-width: 400px) {
+    .halaman-utama {
+        margin-top: 15vw;
+        width: 80vw;
+    }
+
+    .menu-harga {
+        margin-top: 9vw;
+        font-size: larger;
+        width: 80vw;
+        text-align: center;
+        margin-left: -3vw;
+    }
+}
+
+@media (min-width: 576px) {
+    .halaman-utama {
+        margin-top: 15vw;
+    }
+
+    .menu-harga {
+        margin-top: 8vw;
+        font-size: larger;
+        margin-left: -2.5vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .halaman-utama {
+        margin-top: 11vw;
+    }
+
+    .menu-harga {
+        margin-top: 5vw;
+        font-size: larger;
+        margin-left: -1.5vw;
+    }
+}
+
+@media (min-width: 992px) {
+    .halaman-utama {
+        margin-top: 8vw;
+    }
+
+    .menu-harga {
+        margin-top: 5vw;
+        width: 95vw;
+        margin-left: -8.5vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .halaman-utama {
+        margin-top: 8vw;
+    }
+
+    .menu-harga {
+        margin-top: 5vw;
+        width: 80vw;
+        margin-left: -1vw;
+    }
+}
+
+
+.pricing-box {
+    -webkit-box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.7);
+            box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.7);
+    padding: 35px 50px;
+    border-radius: 20px;
+    position: relative;
+    background-color: rgb(255, 255, 255) !important;
+}
+  
+.pricing-box .plan {
+    font-size: 34px;
+}
+  
+.pricing-badge {
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    right: 0;
+    width: 100%;
+    display: block;
+    font-size: 15px;
+    padding: 0;
+    overflow: hidden;
+    height: 100px;
+}
+  
+.pricing-badge .badge {
+    float: right;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    right: -67px;
+    top: 17px;
+    position: relative;
+    text-align: center;
+    width: 200px;
+    font-size: 13px;
+    margin: 0;
+    padding: 7px 10px;
+    font-weight: 500;
+    color: #ffffff;
+    background: #fb7179;
+}
+.mb-2, .my-2 {
+      margin-bottom: .5rem!important;
+}
+p {
+      line-height: 1.7;
+}
+  
+.pricing-1 {
+    margin-top: -20px !important;
+    margin-bottom: 60px;
+}  
