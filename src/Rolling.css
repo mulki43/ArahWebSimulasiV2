@@ -16,12 +16,12 @@
 
 .gallery-gradient-left {
   left: 25vw;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, #060606 100%);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, #000000 100%);
 }
 
 .gallery-gradient-right {
   right: 25vw;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, #060606 100%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, #000000 100%);
 }
 
 .gallery-content {
